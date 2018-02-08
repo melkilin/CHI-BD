@@ -18,9 +18,4 @@ See header_example.header and data_example.data to get details about input data 
   doi = "http://dx.doi.org/10.1016/j.fss.2017.07.003",<br/>
   url = "http://www.sciencedirect.com/science/article/pii/S0165011417302774",<br/>
   author = "Mikel Elkano and Mikel Galar and Jose Sanz and Humberto Bustince",<br/>
-  keywords = "Fuzzy Rule-Based Classification Systems",<br/>
-  keywords = "Big Data",<br/>
-  keywords = "Hadoop",<br/>
-  keywords = "MapReduce",<br/>
-  keywords = "Imbalanced datasets"<br/>
 }<br/>
