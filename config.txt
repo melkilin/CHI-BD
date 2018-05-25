@@ -1,0 +1,8 @@
+num_linguistic_labels = 3
+inference = winning_rule
+cost-sensitive = true
+num_rule_splits = 4
+min_freq_subset_occurrences = 10
+hadoop_num_mappers = 32
+hadoop_max_rules_reducer = 400000
+hadoop_max_mins_no_update = 4320
