@@ -1,7 +1,7 @@
 # CHI-BD
 *A Fuzzy Rule-Based Classification System for Big Data classification problems.*
 
-For details on input data format and configuration file see "header_example.header", "data_example.data", and "config.txt". For further information visit KEEL's webpage (http://sci2s.ugr.es/keel/datasets.php).
+For details on input data format and configuration file see [header_example.header](./header_example.header), [data_example.data](./data_example.data), and [config.txt](./config.txt). For further information visit [KEEL website](http://sci2s.ugr.es/keel/datasets.php).
 
 **Please cite as**: M. Elkano, M. Galar, J. Sanz, H. Bustince, "CHI-BD: A Fuzzy Rule-Based Classification System for Big Data classification problems", Fuzzy Sets and Systems, 2017, DOI: http://dx.doi.org/10.1016/j.fss.2017.07.003.
 
