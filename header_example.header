@@ -1,46 +1,46 @@
-@relation KDDCup1999
-@attribute Atr-0 real[0.0,58329.0]
-@attribute Atr-1{tcp,udp,icmp}
-@attribute Atr-2{ecr_i,telnet,http,eco_i,ntp_u,domain_u,urp_i,domain,IRC,time,smtp,finger,ftp_data,auth,pop_3,X11,ftp,other,private,ctf,nnsp,http_443,link,supdup,login,shell,exec,printer,efs,courier,uucp,klogin,kshell,hostnames,iso_tsap,csnet_ns,sunrpc,pop_2,uucp_path,echo,discard,systat,nntp,daytime,netstat,ssh,name,whois,mtp,gopher,remote_job,rje,netbios_dgm,netbios_ns,netbios_ssn,imap4,sql_net,vmnet,bgp,Z39_50,ldap,tftp_u,pm_dump,http_8001,tim_i,red_i,harvest,aol,urh_i,http_2784}
-@attribute Atr-3{SF,REJ,RSTR,S1,S3,S0,RSTO,S2,OTH,RSTOS0,SH}
-@attribute Atr-4 real[0.0,1.379963888E9]
-@attribute Atr-5 real[0.0,1.309937401E9]
-@attribute Atr-6{0,1}
-@attribute Atr-7{0,1,3}
-@attribute Atr-8{0,1,2,5,3,14}
-@attribute Atr-9 real[0.0,77.0]
-@attribute Atr-10{0,2,1,4,3,5}
-@attribute Atr-11{1,0}
-@attribute Atr-12 real[0.0,7479.0]
-@attribute Atr-13{0,1}
-@attribute Atr-14{0,2,1}
-@attribute Atr-15 real[0.0,7468.0]
-@attribute Atr-16 real[0.0,43.0]
-@attribute Atr-17{0,1,2}
-@attribute Atr-18{0,2,1,5,4,8,6,3,9,7}
-@attribute Atr-19{0}
-@attribute Atr-20{0,1}
-@attribute Atr-21{0,1}
-@attribute Atr-22 real[0.0,511.0]
-@attribute Atr-23 real[0.0,511.0]
-@attribute Atr-24 real[0.0,1.0]
-@attribute Atr-25 real[0.0,1.0]
-@attribute Atr-26 real[0.0,1.0]
-@attribute Atr-27 real[0.0,1.0]
-@attribute Atr-28 real[0.0,1.0]
-@attribute Atr-29 real[0.0,1.0]
-@attribute Atr-30 real[0.0,1.0]
-@attribute Atr-31 real[0.0,255.0]
-@attribute Atr-32 real[0.0,255.0]
-@attribute Atr-33 real[0.0,1.0]
-@attribute Atr-34 real[0.0,1.0]
-@attribute Atr-35 real[0.0,1.0]
-@attribute Atr-36 real[0.0,1.0]
-@attribute Atr-37 real[0.0,1.0]
-@attribute Atr-38 real[0.0,1.0]
-@attribute Atr-39 real[0.0,1.0]
-@attribute Atr-40 real[0.0,1.0]
-@attribute Class{normal,u2r,dos,r2l,probe}
-@inputs Atr-0,Atr-1,Atr-2,Atr-3,Atr-4,Atr-5,Atr-6,Atr-7,Atr-8,Atr-9,Atr-10,Atr-11,Atr-12,Atr-13,Atr-14,Atr-15,Atr-16,Atr-17,Atr-18,Atr-19,Atr-20,Atr-21,Atr-22,Atr-23,Atr-24,Atr-25,Atr-26,Atr-27,Atr-28,Atr-29,Atr-30,Atr-31,Atr-32,Atr-33,Atr-34,Atr-35,Atr-36,Atr-37,Atr-38,Atr-39,Atr-40
+@relation census
+@attribute Atr-0 integer[0,90]
+@attribute Atr-1 {Self-employed-not_incorporated,Not_in_universe,Private,Local_government,Federal_government,Self-employed-incorporated,State_government,Never_worked,Without_pay}
+@attribute Atr-2 integer[0,51]
+@attribute Atr-3 integer[0,46]
+@attribute Atr-4 {Some_college_but_no_degree,10th_grade,Children,Bachelors_degree(BA_AB_BS),High_school_graduate,Masters_degree(MA_MS_MEng_MEd_MSW_MBA),Less_than_1st_grade,Associates_degree-academic_program,7th_and_8th_grade,12th_grade_no_diploma,Associates_degree-occup_/vocational,Prof_school_degree_(MD_DDS_DVM_LLB_JD),5th_or_6th_grade,11th_grade,Doctorate_degree(PhD_EdD),9th_grade,1st_2nd_3rd_or_4th_grade}
+@attribute Atr-5 integer[0,9999]
+@attribute Atr-6 {Not_in_universe,High_school,College_or_university}
+@attribute Atr-7 {Divorced,Never_married,Married-civilian_spouse_present,Widowed,Separated,Married-spouse_absent,Married-A_F_spouse_present}
+@attribute Atr-8 {Construction,Not_in_universe_or_children,Entertainment,Finance_insurance_and_real_estate,Education,Business_and_repair_services,Manufacturing-nondurable_goods,Personal_services_except_private_HH,Manufacturing-durable_goods,Other_professional_services,Mining,Transportation,Wholesale_trade,Public_administration,Retail_trade,Social_services,Private_household_services,Utilities_and_sanitary_services,Communications,Hospital_services,Medical_except_hospital,Agriculture,Forestry_and_fisheries,Armed_Forces}
+@attribute Atr-9 {Precision_production_craft_&_repair,Not_in_universe,Professional_specialty,Executive_admin_and_managerial,Handlers_equip_cleaners_etc,Adm_support_including_clerical,Machine_operators_assmblrs_&_inspctrs,Other_service,Sales,Private_household_services,Technicians_and_related_support,Transportation_and_material_moving,Farming_forestry_and_fishing,Protective_services,Armed_Forces}
+@attribute Atr-10 {White,Asian_or_Pacific_Islander,Amer_Indian_Aleut_or_Eskimo,Black,Other}
+@attribute Atr-11 {All_other,Do_not_know,Central_or_South_American,Mexican_(Mexicano),Mexican-American,Other_Spanish,Puerto_Rican,Cuban,Chicano,NA}
+@attribute Atr-12 {Male,Female}
+@attribute Atr-13 {Not_in_universe,No,Yes}
+@attribute Atr-14 {Not_in_universe,Job_loser_-_on_layoff,Other_job_loser,New_entrant,Re-entrant,Job_leaver}
+@attribute Atr-15 {Children_or_Armed_Forces,Not_in_labor_force,Full-time_schedules,Unemployed_full-time,Unemployed_part-_time,PT_for_non-econ_reasons_usually_FT,PT_for_econ_reasons_usually_PT,PT_for_econ_reasons_usually_FT}
+@attribute Atr-16 integer[0,99999]
+@attribute Atr-17 integer[0,4608]
+@attribute Atr-18 integer[0,99999]
+@attribute Atr-19 {Head_of_household,Nonfiler,Joint_both_under_65,Single,Joint_both_65+,Joint_one_under_65_&_one_65+}
+@attribute Atr-20 {South,Not_in_universe,Northeast,Midwest,West,Abroad}
+@attribute Atr-21 {Arkansas,Not_in_universe,Utah,Michigan,Minnesota,Alaska,Kansas,Indiana,Massachusetts,New_Mexico,Nevada,Tennessee,Colorado,Abroad,Kentucky,California,Arizona,North_Carolina,Connecticut,Florida,Vermont,Maryland,Oklahoma,Oregon,Ohio,South_Carolina,Texas,Montana,Wyoming,Georgia,Pennsylvania,Iowa,New_Hampshire,Missouri,Alabama,North_Dakota,New_Jersey,Louisiana,West_Virginia,Delaware,Illinois,Maine,Wisconsin,New_York,Idaho,District_of_Columbia,South_Dakota,Nebraska,Virginia,Mississippi}
+@attribute Atr-22 {Householder,Child_18+_never_marr_Not_in_a_subfamily,Child_<18_never_marr_not_in_subfamily,Spouse_of_householder,Secondary_individual,Other_Rel_18+_never_marr_not_in_subfamily,Nonfamily_householder,Grandchild_<18_never_marr_not_in_subfamily,Grandchild_<18_never_marr_child_of_subfamily_RP,Child_18+_ever_marr_Not_in_a_subfamily,Child_18+_never_marr_RP_of_subfamily,Child_18+_spouse_of_subfamily_RP,Other_Rel_<18_never_marr_child_of_subfamily_RP,Child_under_18_of_RP_of_unrel_subfamily,Grandchild_18+_never_marr_not_in_subfamily,Child_18+_ever_marr_RP_of_subfamily,Other_Rel_18+_ever_marr_RP_of_subfamily,Other_Rel_18+_ever_marr_not_in_subfamily,RP_of_unrelated_subfamily,Other_Rel_18+_spouse_of_subfamily_RP,Other_Rel_<18_never_marr_not_in_subfamily,Other_Rel_<18_spouse_of_subfamily_RP,In_group_quarters,Grandchild_18+_spouse_of_subfamily_RP,Other_Rel_18+_never_marr_RP_of_subfamily,Child_<18_never_marr_RP_of_subfamily,Child_<18_ever_marr_not_in_subfamily,Other_Rel_<18_ever_marr_RP_of_subfamily,Grandchild_18+_ever_marr_not_in_subfamily,Child_<18_spouse_of_subfamily_RP,Spouse_of_RP_of_unrelated_subfamily,Other_Rel_<18_never_married_RP_of_subfamily,Grandchild_18+_never_marr_RP_of_subfamily,Grandchild_18+_ever_marr_RP_of_subfamily,Child_<18_ever_marr_RP_of_subfamily,Other_Rel_<18_ever_marr_not_in_subfamily,Grandchild_<18_never_marr_RP_of_subfamily,Grandchild_<18_ever_marr_not_in_subfamily}
+@attribute Atr-23 {Householder,Child_18_or_older,Child_under_18_never_married,Spouse_of_householder,Nonrelative_of_householder,Other_relative_of_householder,Group_Quarters-_Secondary_individual,Child_under_18_ever_married}
+@attribute Atr-24 real[37.87,18656.3]
+@attribute Atr-25 {MSA_to_MSA,Nonmover,NonMSA_to_nonMSA,Not_in_universe,Not_identifiable,Abroad_to_MSA,MSA_to_nonMSA,Abroad_to_nonMSA,NonMSA_to_MSA}
+@attribute Atr-26 {Same_county,Nonmover,Different_region,Different_county_same_state,Not_in_universe,Different_division_same_region,Abroad,Different_state_same_division}
+@attribute Atr-27 {Same_county,Nonmover,Different_state_in_South,Different_county_same_state,Not_in_universe,Different_state_in_Northeast,Abroad,Different_state_in_Midwest,Different_state_in_West}
+@attribute Atr-28 {No,Not_in_universe_under_1_year_old,Yes}
+@attribute Atr-29 {Yes,Not_in_universe,No}
+@attribute Atr-30 integer[0,6]
+@attribute Atr-31 {Not_in_universe,Both_parents_present,Mother_only_present,Neither_parent_present,Father_only_present}
+@attribute Atr-32 {United-States,Vietnam,Philippines,Columbia,Germany,Mexico,Japan,Peru,Dominican-Republic,South_Korea,Cuba,El-Salvador,Canada,Scotland,Outlying-U_S_(Guam_USVI_etc),Italy,Guatemala,Ecuador,Puerto-Rico,Cambodia,China,Poland,Nicaragua,Taiwan,England,Ireland,Hungary,Yugoslavia,Trinadad&Tobago,Jamaica,Honduras,Portugal,Iran,France,India,Hong_Kong,Haiti,Greece,Holand-Netherlands,Thailand,Laos,Panama}
+@attribute Atr-33 {United-States,Vietnam,Columbia,Mexico,El-Salvador,Peru,Puerto-Rico,Cuba,Philippines,Dominican-Republic,Germany,England,Guatemala,Scotland,Portugal,Italy,Ecuador,Yugoslavia,China,Poland,Hungary,Nicaragua,Taiwan,Ireland,Canada,South_Korea,Trinadad&Tobago,Jamaica,Honduras,Iran,France,Cambodia,India,Hong_Kong,Haiti,Japan,Greece,Holand-Netherlands,Thailand,Panama,Laos,Outlying-U_S_(Guam_USVI_etc)}
+@attribute Atr-34 {United-States,Vietnam,Columbia,Mexico,Peru,Cuba,Philippines,Dominican-Republic,El-Salvador,Canada,Scotland,Portugal,Guatemala,Ecuador,Germany,Outlying-U_S_(Guam_USVI_etc),Puerto-Rico,Italy,China,Poland,Nicaragua,Taiwan,England,Ireland,South_Korea,Trinadad&Tobago,Jamaica,Honduras,Iran,Hungary,France,Cambodia,India,Hong_Kong,Japan,Haiti,Holand-Netherlands,Greece,Thailand,Panama,Yugoslavia,Laos}
+@attribute Atr-35 {Native-_Born_in_the_United_States,Foreign_born-_Not_a_citizen_of_U_S,Foreign_born-_U_S_citizen_by_naturalization,Native-_Born_abroad_of_American_Parent(s),Native-_Born_in_Puerto_Rico_or_U_S_Outlying}
+@attribute Atr-36 integer[0,2]
+@attribute Atr-37 {Not_in_universe,No,Yes}
+@attribute Atr-38 integer[0,2]
+@attribute Atr-39 integer[0,52]
+@attribute Atr-40 integer[94,95]
+@attribute Class {-_50000.,50000+.}
+@inputs Atr-0, Atr-1, Atr-2, Atr-3, Atr-4, Atr-5, Atr-6, Atr-7, Atr-8, Atr-9, Atr-10, Atr-11, Atr-12, Atr-13, Atr-14, Atr-15, Atr-16, Atr-17, Atr-18, Atr-19, Atr-20, Atr-21, Atr-22, Atr-23, Atr-24, Atr-25, Atr-26, Atr-27, Atr-28, Atr-29, Atr-30, Atr-31, Atr-32, Atr-33, Atr-34, Atr-35, Atr-36, Atr-37, Atr-38, Atr-39, Atr-40
 @outputs Class
-@numInstancesByClass 972781,52,3883370,1126,41102
+@numInstancesByClass 134359,8162
